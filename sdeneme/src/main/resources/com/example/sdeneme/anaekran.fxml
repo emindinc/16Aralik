@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="6.0" layoutY="7.0" prefHeight="387.0" prefWidth="201.0" style="-fx-background-color: C0C0C0;">
+         <children>
+            <Label layoutX="50.0" layoutY="14.0" prefHeight="35.0" prefWidth="101.0" text="MERHABA">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="ekipmanliste" layoutX="50.0" layoutY="86.0" mnemonicParsing="false" onMouseClicked="#ekipmanList" text="Ekipmanlar">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="kimyasalbuton" layoutX="50.0" layoutY="139.0" mnemonicParsing="false" onMouseClicked="#kimyasalList" text="Kimyasallar">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="deneybutonu" layoutX="50.0" layoutY="194.0" mnemonicParsing="false" onMouseClicked="#deneYap" text="Deney Yap">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="ekipmanliste_adi1" layoutX="11.0" layoutY="342.0" mnemonicParsing="false" onMouseClicked="#ekipmanList" prefHeight="31.0" prefWidth="79.0" text="Çıkış">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
